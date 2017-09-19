@@ -21,7 +21,7 @@
       <div class="panel-heading">Current Train Schedule</div>
        <!-- Table -->
       <table class="table">
-        <thead class="current-tHead">
+        <thead id="tableHead">
            <tr>
               <th>Train Name</th>
               <th>Destination</th>
@@ -30,7 +30,7 @@
               <th>Minutes Away</th>
            </tr>
         </thead>
-        <tbody class="current-tBody">
+        <tbody id="tableBody">
            <tr>
               <!-- Add <td></td> here with jQuery -->
            </tr>
@@ -44,8 +44,8 @@
          </div>
       </div>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-body">
+    <div class="panel panel-default ">
+      <div class="panel-body panel-transparent">
          <form>
             <div class = "form-group">
                <label for="exampleFormControlInput1">Train Name</label>
@@ -69,6 +69,11 @@
          </div>
       </div>
    </div>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/app.js"></script>
 
 </body>
 </html>
