@@ -11,3 +11,11 @@
 .container {
    margin-right: auto;
 }
+
+.panel-default {
+   margin: 0px;
+}
+
+.panel-heading {
+   background: #536da0 !important;
+}

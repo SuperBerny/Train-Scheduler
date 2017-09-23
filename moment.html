@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Moment JS Exercises</title>
+</head>
+<body>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Link to Moment.js should go here -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <!-- Script -->
+  <script>
+var today = moment();
+var start = moment.duration("12:00", "hh:mm");
+var end = moment.duration("6:45", "hh:mm");
+var diff = end.subtract(start);
+
+console.log(diff.hours());
+
+
+  </script>
+</body>
+</html>
